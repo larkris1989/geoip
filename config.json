@@ -101,7 +101,7 @@
       "action": "output",
       "args": {
         "outputName": "Country-asn.mmdb",
-        "overwriteList": ["global", "google", "telegram"]
+        "wantedList": ["global", "google", "telegram"]
       }
     },
     {
