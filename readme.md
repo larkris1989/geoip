@@ -12,6 +12,8 @@
 
 - [Country.mmdb
 ](https://github.com/larkris1989/geoip/raw/release/Country.mmdb)
+- [Country-asn.mmdb
+](https://github.com/larkris1989/geoip/raw/release/Country-asn.mmdb)
 
 ## License
 
