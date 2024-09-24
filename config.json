@@ -93,7 +93,15 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["cn", "apple", "google", "telegram", "global"]
+        "overwriteList": ["cn", "apple", "global", "google", "telegram"]
+      }
+    },
+    {
+      "type": "maxmindMMDB",
+      "action": "output",
+      "args": {
+        "outputName": "Country-asn.mmdb",
+        "overwriteList": ["global", "google", "telegram"]
       }
     },
     {
