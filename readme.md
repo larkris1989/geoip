@@ -1,6 +1,6 @@
 # 简介
 
-精简版 GeoIP，Forked From [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)，本项目每周六自动生成 MaxMind mmdb 格式文件`Country.mmdb`、`Country-asn.mmdb`。
+精简版 GeoIP，来自 [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)，本项目每周六自动生成 MaxMind mmdb 格式文件`Country.mmdb`、`Country-asn.mmdb`。
 
 [![Build Country.mmdb](https://github.com/larkris1989/geoip/actions/workflows/main.yml/badge.svg)](https://github.com/larkris1989/geoip/actions/workflows/main.yml)
 
