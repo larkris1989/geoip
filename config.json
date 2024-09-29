@@ -32,34 +32,8 @@
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt",
-        "onlyIPType": "ipv6"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "cn",
         "uri": "https://ispip.clang.cn/all_cn.txt",
         "onlyIPType": "ipv4"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "cn",
-        "uri": "https://ispip.clang.cn/all_cn_ipv6.txt",
-        "onlyIPType": "ipv6"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
-        "name": "telegram",
-        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/telegram.txt"
       }
     },
     {
@@ -76,14 +50,34 @@
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/lan.txt"
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/lan.txt",
+        "onlyIPType": "ipv4"
       }
     },
     {
       "type": "text",
       "action": "add",
       "args": {
-        "inputDir": "./data"
+        "name": "telegram",
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/telegram.txt",
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "ads",
+        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/ads.txt",
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "inputDir": "./data",
+        "onlyIPType": "ipv4"
       }
     }
   ],
@@ -93,7 +87,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["cn", "apple", "global", "google", "telegram"]
+        "overwriteList": ["ads", "cn", "apple", "global", "google", "telegram"]
       }
     },
     {

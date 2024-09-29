@@ -6,8 +6,6 @@
 
 > IPV4 数据: 来自 [IPIP.net](https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt)、[中国运营商 IP 地址库](https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china.txt)、[纯真 IP](https://raw.githubusercontent.com/metowolf/iplist/master/data/country/CN.txt)、[苍狼山庄](https://ispip.clang.cn/all_cn.txt)。
 
-> IPV6 数据: 来自 [中国运营商 IP 地址库](https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt)、[苍狼山庄](https://ispip.clang.cn/all_cn_ipv6.txt)。
-
 ### 下载地址
 
 - [Country.mmdb
