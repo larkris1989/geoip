@@ -67,15 +67,6 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "ads",
-        "uri": "https://gitlab.com/Larkris/larkris/-/raw/main/iplsit/ads.txt",
-        "onlyIPType": "ipv4"
-      }
-    },
-    {
-      "type": "text",
-      "action": "add",
-      "args": {
         "inputDir": "./data",
         "onlyIPType": "ipv4"
       }
@@ -87,7 +78,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["ads", "cn", "apple", "global", "google", "telegram"]
+        "overwriteList": ["cn", "apple", "global", "google", "telegram"]
       }
     },
     {
