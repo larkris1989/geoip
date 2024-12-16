@@ -9,7 +9,7 @@ require (
 	github.com/oschwald/maxminddb-golang v1.13.1
 	github.com/v2fly/v2ray-core/v5 v5.18.0
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba
-	google.golang.org/protobuf v1.35.2
+	google.golang.org/protobuf v1.36.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
